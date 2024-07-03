@@ -1,0 +1,43 @@
+.block-1 {
+    background: url('../img/bg1.png') center (center/cover) no-repeat;
+    height: 650px;
+    width: 100%;
+    padding: 22px 0 95px 0;
+    color: #fff;
+    &__header {
+        font-weight: 700;
+        font-size: 42px;
+        text-transform: uppercase;
+    }
+    &__subheader {
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    &__wrapper {
+        margin-top: 92px;
+        text-align: right;
+    }
+    &__icons {
+        margin-top: 70px;
+        height: 100px;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 72px;
+    }
+    &__icon {
+        width: 110px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 34px;
+        font-size: 14px;
+    }
+    &__link {
+        font-size: 16px;
+        a {
+            color: #fff;
+        }
+    }
+}

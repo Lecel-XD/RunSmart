@@ -1,0 +1,17 @@
+$button_color: #c70101;
+
+@import 'blocks/header';
+@import 'blocks/block-1';
+@import 'blocks/buttons';
+@import 'blocks/subheaders';
+@import 'blocks/advantages';
+
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
