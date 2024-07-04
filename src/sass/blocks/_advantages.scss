@@ -1,4 +1,25 @@
 .advantage {
     background-color: #f6f6f6;
-    padding-top: 70px;
+    padding: 70px 0;
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 75px;
+    }
+    &__box {
+        width: 250px;
+        text-align: center;
+    }
+    &__img {
+        height: 58px;
+        margin-bottom: 50px;
+    }
+    &__subheader {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    &__descr {
+        font-size: 14px;
+    }
 }
